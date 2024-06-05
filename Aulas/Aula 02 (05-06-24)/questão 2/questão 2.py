@@ -6,10 +6,10 @@ salBruto = ganhoHora * hora
 # impostos
 IR = salBruto*(11/100)
 INSS = salBruto*(8/100)
-sind = salBruto*(5/100)
+SIND = salBruto*(5/100)
 
 # salário líquido
-salLiq = salBruto - IR - INSS - sind
+salLiq = salBruto - IR - INSS - SIND
 
 print(f"""
 Seu salário bruto é de R${salBruto:,.2f}.
