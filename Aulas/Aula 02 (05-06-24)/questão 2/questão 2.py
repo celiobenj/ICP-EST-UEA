@@ -15,6 +15,6 @@ print(f"""
 Seu salário bruto é de R${salBruto:,.2f}.
 Você pagou ao IR um total de R${IR:,.2f}.
 Você pagou ao INSS um total de R${INSS:,.2f}.
-Você pagou ao sind um total de R${sind:,.2f}.
+Você pagou ao sind um total de R${SIND:,.2f}.
 Seu salário líquido é de R${salLiq:,.2f}.
 """)
